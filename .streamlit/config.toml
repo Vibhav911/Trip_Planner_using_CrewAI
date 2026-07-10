@@ -1,0 +1,13 @@
+[server]   # These are for Web Servers
+enableXsrfProtection = true
+enableCORS = true     # If frontend and backends are in different server, and you want to connect them.
+
+[theme]
+primaryColor = "#FF4B4B"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[logger]
+level = "info"
